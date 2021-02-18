@@ -9,8 +9,8 @@ Puts a message that holds sample data to a queue and the consumes it from the qu
  - Docker & docker-compose 
 
 ## Run project 
-docker-compose up (starts IBM MQ Console at address: https://localhost:9443, default login: admin, default password: passw0rd) \
-java -cp ".\com.ibm.mq.allclient-9.1.4.0.jar;.\javax.jms-api-2.0.1.jar;." com.github.kanataidarov.ibm_mq_jms_client.JmsPutGet \
+> docker-compose up (starts IBM MQ Console at address: https://localhost:9443, default login: admin, default password: passw0rd) \
+> java -cp ".\com.ibm.mq.allclient-9.1.4.0.jar;.\javax.jms-api-2.0.1.jar;." com.github.kanataidarov.ibm_mq_jms_client.JmsPutGet \
 
 ## Compile project
-javac -cp ".\com.ibm.mq.allclient-9.1.4.0.jar;.\javax.jms-api-2.0.1.jar" .\com\github\kanataidarov\ibm_mq_jms_client\JmsPutGet.java \
+> javac -cp ".\com.ibm.mq.allclient-9.1.4.0.jar;.\javax.jms-api-2.0.1.jar" .\com\github\kanataidarov\ibm_mq_jms_client\JmsPutGet.java \
